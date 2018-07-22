@@ -11,7 +11,9 @@
 #include <AskSinPP.h>
 #include <LowPower.h>
 
+#include <MultiChannelDevice.h>
 #include <Switch.h>
+#include <Remote.h>
 
 
 // we use a Pro Mini
@@ -22,20 +24,25 @@
 // B0 == PIN 8 on Pro Mini
 #define CONFIG_BUTTON_PIN 8
 
-#define RELAY1_PIN 17
+#define RELAY1_PIN 0 // PB0
+#define RELAY2_PIN 1 // PB1
+
+#define BUTTON1_PIN 31 // PA0
+#define BUTTON2_PIN 30 // PA1
 
 // number of available peers per channel
-#define PEERS_PER_CHANNEL 8
+#define PEERS_PER_SWCHANNEL 6
+#define PEERS_PER_BTNCHANNEL 20
 
 // all library classes are placed in the namespace 'as'
 using namespace as;
 
 // define all device properties
 const struct DeviceInfo PROGMEM devinfo = {
-    {0x42,0xA2,0xB7},       // Device ID
-    "papa42a2b7",           // Device Serial
-    {0x00,0x6c},            // Device Model
-    0x10,                   // Firmware Version
+    {0x83,0x2A,0xE1},       // Device ID
+    "HMSwC00001",           // Device Serial
+    {0xf2,0x01},            // Device Model
+    0x01,                   // Firmware Version
     as::DeviceType::Switch, // Device Type
     {0x01,0x00}             // Info Bytes
 };
