@@ -1,0 +1,11 @@
+<div class="top-space row">
+  <div data-type="spinner"
+       data-davice="dummy"
+       data-step="0.5"
+       data-min="15"
+       data-max="25"
+       data-unit="°"
+       class="valueonly col-3-5">
+  </div>
+  <div class="gray col-2-5">data-steps="0.5"</div>
+</div>
