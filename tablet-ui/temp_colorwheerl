@@ -1,0 +1,5 @@
+ <div class="row container round bg-gray padding margin">
+        <div data-type="switch" data-device='HUEDevice2' data-on-background-color="HUEDevice2:rgb" data-get-on="dim.*|on" data-set-on="on" data-icon="fa-lightbulb-o" class="col-1-4"></div>
+        <div class="col-1-2">HUE Device 2</div>
+        <div data-type="symbol" id="starter2" data-device='HUEDevice2' data-get="" data-off-color="HUEDevice2:rgb" data-off-background-color="HUEDevice2:rgb" data-icon="fa-ellipsis-v" class="small"></div>
+ </div>
