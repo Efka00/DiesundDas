@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- FHEM Tablet UI -->
+<!-- Widget für Homematic Jalousieaktor HM-LC-Bl1PBU-FM -->
+</head>
+<body>
+	<header>var_name</header>
+	<div data-type="label" data-device="var_device1" data-get="pct" data-unit="%" class="top-space big thin"></div>
+	
+	<div data-type="popup" data-height="190px" data-width="250px">
+	<div data-type="link" data-color="grey" data-border-color="grey" data-icon="fa-sort" class="top-space round">
+		auf / ab
+	</div>
+	<div class="dialog">
+		<header>Jalousie var_name</header>
+		<div class="top-space inline">
+			<div data-type="switch" 
+				data-device="var_device1" 
+				data-get="pct"
+				data-get-on="25"
+				data-get-off="((?!25).)*"
+				data-set="pct" 
+				data-set-on="25"
+				data-set-off="25" 
+				data-on-color="white"
+				data-on-background-color="green"
+				data-icon="fa-minus">
+			</div>			
+			<div class="mini">25%</div>
+		</div>
+		<div class="top-space inline">
+			<div data-type="switch" 
+				data-device="var_device1" 
+				data-get="pct"
+				data-get-on="50"
+				data-get-off="((?!50).)*"
+				data-set="pct" 
+				data-set-on="50"
+				data-set-off="50" 
+				data-on-color="white"
+				data-on-background-color="green"
+				data-icon="fa-bars">
+			</div>			
+			<div class="mini">50%</div>
+		</div>
+		<div class="top-space inline">
+			<div data-type="switch" 
+				data-device="var_device1" 
+				data-get="pct"
+				data-get-on="75"
+				data-get-off="((?!75).)*"
+				data-set="pct" 
+				data-set-on="75"
+				data-set-off="75" 
+				data-on-color="white"
+				data-on-background-color="green"
+				data-icon="fa-align-justify">
+			</div>			
+			<div class="mini">75%</div>
+		</div>
+		<div class="newline"></div>
+		<div class="top-space inline">
+			<div data-type="switch" 
+				data-device="var_device1" 
+				data-get="pct"
+				data-get-on="0"
+				data-get-off="((?!0).)*"
+				data-set="pct" 
+				data-set-on="0"
+				data-set-off="0" 
+				data-on-color="white"
+				data-on-background-color="green"
+				data-icon="fa-chevron-down">
+			</div>
+			<div class="mini">zu</div>
+		</div>
+		<div class="top-space inline">
+			<div data-type="switch" 
+				data-device="var_device1" 
+				data-get="pct"
+				data-get-on="100"
+				data-get-off="((?!100).)*"
+				data-set="pct" 
+				data-set-on="100"
+				data-set-off="100" 
+				data-on-color="white"
+				data-on-background-color="green"
+				data-icon="fa-chevron-up">
+			</div>			
+			<div class="mini">auf</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+	<div data-type="slider" data-device="var_device1" data-get="pct" data-set="pct" data-height="113" class="top-space"></div>
+
+	<div data-type="symbol" data-device="var_device1" data-get="pct" data-states='[0,1]' data-colors='["red","green"]'  data-icon="fa-align-justify" class="small right"></div>
+</body>
+</html>
+
