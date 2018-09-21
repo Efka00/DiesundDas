@@ -1,1 +1,10 @@
-<header>
+<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+  <header><div data-type="label" class="medium orange">Schlafzimmer</div></header>
+    <div class="cell">
+      <div data-type="label" class="cell">Rolladen</div>
+      <div data-type="slider"
+           data-devive="rollo_schlafzimmer"
+           data-step="10" class="cell"></div>
+      <div data-type="label" data-device="rollo_schlafzimmer" data-get="öffnung" class="cell"></div>
+    </div>
+</li>
