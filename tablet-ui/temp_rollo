@@ -1,0 +1,14 @@
+<div>
+    <div class="triplebox-v">
+        <div data-type="push" data-device="Rollo" 
+             data-icon="fa-chevron-up" data-background-icon="fa-square-o" 
+             data-set-on="up">
+        </div>
+        <div data-type="push" data-device="Rollo" 
+            data-icon="fa-chevron-down" data-background-icon="fa-square-o" 
+            data-set-on="down">
+        </div>
+    </div>
+</div>
+
+<!-- place your widget here -->
