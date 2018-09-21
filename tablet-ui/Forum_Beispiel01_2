@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- FHEM Tablet UI -->
+<!-- Widget für Menü -->
+</head>
+<body>
+	<header>Men&uuml;</header>
+	<div data-type="link" data-color="grey" data-border-color="grey" data-url="test.html" data-icon="fa-home" class="top-space round">Home</div>
+	<div data-type="link" data-color="grey" data-border-color="grey" data-url="page_EG.html" data-icon="fa-bars" class="top-space round">EG</div>
+	<div data-type="link" data-color="grey" data-border-color="grey" data-url="page_OG.html" data-icon="fa-bars" class="top-space round">OG</div>
+	<div data-type="link" data-color="grey" data-border-color="grey" data-url="page_Chart.html" data-icon="fa-bar-chart" class="top-space round">Klima</div>
+	<div data-type="link" data-color="grey" data-border-color="grey" data-url="page_System.html" data-icon="fa-cog" class="top-space round">System</div>
+</body>
+</html>
+
+
