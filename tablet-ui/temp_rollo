@@ -1,14 +1,10 @@
-<div>
-    <div class="triplebox-v">
-        <div data-type="push" data-device="Rollo" 
-             data-icon="fa-chevron-up" data-background-icon="fa-square-o" 
-             data-set-on="up">
-        </div>
-        <div data-type="push" data-device="Rollo" 
-            data-icon="fa-chevron-down" data-background-icon="fa-square-o" 
-            data-set-on="down">
+<header>Schlafzimmer</header>
+<div class="left cell">
+    <div data-type="label" class="">&nbsp;</div>
+      <div data-type="slider" data-device='roll_sz' data-get="STATE" data-min="0"  data-max="100" data-on='(on|closed|down)' data-off='(open|off)' data-value=true  class="mini negated" >  </div>
+        <div class="triplebox-v small top-space-2x">
+          <div data-type="push" data-device="roll_sz" data-icon="fa-chevron-up" data-background-icon="fa-square-o" data-set="off" class=""> </div>
+          <div data-type="push" data-device="roll_sz" data-icon="fa-minus" data-background-icon="fa-square-o" data-set="stop" class=""> </div>
+          <div data-type="push" data-device="roll_sz" data-icon="fa-chevron-down" data-background-icon="fa-square-o" data-set="on" class=""> </div>
         </div>
     </div>
-</div>
-
-<!-- place your widget here -->
